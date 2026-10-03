@@ -1,26 +1,26 @@
-# BroCheck 🔥
+# BroCheck
 
 > **The Open-Source AI Roaster CLI**  
-> Built for the **Hacktoberfest 2026 (HF26) DEV Challenge: Build for a Friend** 🎯
+> Built for the **Hacktoberfest 2026 (HF26) DEV Challenge: Build for a Friend**
 
 `BroCheck` is a zero-RAM, multi-mode AI roaster CLI that hilariously critiques your friend's music playlists, spaghetti code, barren GitHub profiles, cringey bios, and transparent excuses using **Open-Source AI**.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🎵 **Universal Music Roaster**: Drop any playlist link (**Spotify, Apple Music, YouTube Music, SoundCloud**), upload a `.txt`/`.m3u` file, or paste raw song lists.
-* 💻 **Code Review Roaster**: Point to any `.py`, `.js`, `.ts`, `.cpp` file for a brutally honest critique of variable names and 6-level nested loops.
-* 🐙 **GitHub Profile Roaster**: Enter any GitHub username to roast empty commit heatmaps, abandoned test repos, and buzzword-packed bios.
-* 📱 **Social Bio & Status Roaster**: Savage fake-deep gym quotes and LinkedIn buzzwords.
-* 💬 **Excuse & Chat Roaster**: Roast terrible excuses for being late to group hangs.
-* 🎚️ **Adjustable Heat Levels**: `Mild 🌶️` • `Spicy 🌶️🌶️` • `Nuclear 💥🔥`
-* 🎭 **Custom Personas**: `Best Friend` • `Gordon Ramsay` • `Tech Bro VC` • `Disappointed Parent`
-* 🪶 **0 MB RAM Overhead**: Runs instantly on any machine (even with 4GB/6GB RAM) using open-weight models (`Llama-3.2`, `Qwen-2.5`, `Mistral`).
+* **Universal Music Roaster**: Drop any playlist link (**Spotify, Apple Music, YouTube Music, SoundCloud**), upload a `.txt`/`.m3u` file, or paste raw song lists.
+* **Code Review Roaster**: Point to any `.py`, `.js`, `.ts`, `.cpp` file for a brutally honest critique of variable names and 6-level nested loops.
+* **GitHub Profile Roaster**: Enter any GitHub username to roast empty commit heatmaps, abandoned test repos, and buzzword-packed bios.
+* **Social Bio & Status Roaster**: Savage fake-deep gym quotes and LinkedIn buzzwords.
+* **Excuse & Chat Roaster**: Roast terrible excuses for being late to group hangs.
+* **Adjustable Heat Levels**: `Mild` | `Spicy` | `Nuclear`
+* **Custom Personas**: `Best Friend` | `Gordon Ramsay` | `Tech Bro VC` | `Disappointed Parent`
+* **0 MB RAM Overhead**: Runs instantly on any machine (even with 4GB/6GB RAM) using open-weight models (`Llama-3.2`, `Qwen-2.5`, `Mistral`).
 
 ---
 
-## 📦 Quick Start
+## Quick Start
 
 ### 1. Installation
 ```bash
@@ -51,7 +51,7 @@ python brocheck.py --mode github --input "octocat" --persona techbro --heat spic
 
 ---
 
-## 🛠️ Architecture
+## Architecture
 
 ```
 User CLI Input
@@ -66,12 +66,12 @@ Prompt & Persona Builder (Heat Level + Style)
 Open-Weight AI Engine (Llama-3.2 / Qwen-2.5 / Mistral-7B)
      │
      ▼
-Rich Terminal Fire Panel & Verdict Card 🔥
+Rich Terminal Fire Panel & Verdict Card
 ```
 
 ---
 
-## 🌐 Why Open-Source AI Matters
+## Why Open-Source AI Matters
 
 1. **Zero Cost & Accessible**: Anyone with a low-spec laptop (even 4GB-6GB RAM) can run this without paying monthly subscription fees.
 2. **Data Privacy**: Your friend's private code snippets, group chat messages, and playlist links never get locked into closed cloud silos.
@@ -79,5 +79,5 @@ Rich Terminal Fire Panel & Verdict Card 🔥
 
 ---
 
-## 📜 License
-MIT License. Built with ❤️ and 🔥 for Hacktoberfest 2026.
+## License
+MIT License. Built for Hacktoberfest 2026.
